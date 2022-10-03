@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    background-color: #181820;
+    width: 100%;
+    height: 100vh;
+}
+
+#menu-icon {
+    color:white;
+    margin-top: 10px;
+}
+
+#addButton {
+    position: relative;
+    background-color: #FC76A1;
+    color: #181820;
+    border-radius: 32%;
+    top: 6px;
+    left: 35px;
+}
+
+#textBox1 {
+    background-color: #181820;
+    border-color: #1B1B24;
+    padding-left: 32px;
+    border-style: double;
+    width: 90%;
+    height: 37px;
+    color: wheat;
+}
+
+.taskCard {
+    background-color: #21212B;
+    border-radius: 23px;
+    padding-left: 27px;
+    margin-left: 21px;
+}
+
+#taskIcon {
+    color: #E06B92;
+    border-radius: 12px;
+    position: relative;
+    top: 30px;
+}
+
+#tasks {
+    margin-top: 20px;
+}
+
+.taskTitle {
+    color:white;
+    position: relative;
+    left: 10%;
+}
+
+.taskIcon {
+    color: #DC9B50;
+    position: relative;
+    left: 12%;
+}
+
+#taskTime {
+    color:#DC9B50;
+    display: inline;
+    position: relative;
+    left: 12%;
+    bottom: 5px;
+}
+
+.completedCard {
+    background-color: #21212B;
+    border-radius: 12px;
+    padding-left: 27px;
+    margin-left: 21px;
+}
+
+#completed-task-icon {
+    color: #FC76A1;
+    position: relative;
+    top: 15px;
+}
+
+#taskDesc {
+    color: white;
+    position: relative;
+    left: 37px;
+    bottom: 15px;
+    width: 80%;
+}
